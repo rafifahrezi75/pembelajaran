@@ -1,0 +1,23 @@
+ul li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+ul li ul{
+    background: orange;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5rem;
+    left: auto;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover{
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li{
+    clear: both;
+    width: 100%;
+}

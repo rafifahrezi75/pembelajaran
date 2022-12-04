@@ -1,0 +1,6 @@
+@media(min-width:560px) {
+    .carousel-item img{
+        margin: auto;
+        width: 250px;
+    }
+}
